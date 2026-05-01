@@ -87,10 +87,31 @@ Role-playing Prompting 适合用于需要特定专业视角、特定表达风格
 4. 模拟对话和面试（初学者练习语言， 面试模拟）
 
 ## 4. 不同 Prompt 技巧的实践结果
+接下来是展示对各种 Prompt 技巧的提问以及输出结果， 针对于同一个问题：“帮我为一款AI 学习工具写一篇小红书风格的推广文案”
 ### 4.1 Zero-shot 实践
+针对于Zero-shot，输入如下：“帮我为一款AI 学习工具写一篇小红书风格的推广文案”(如下图包含prompt以及输出结果)
+![img](image/zero_result1.png)  
+![img](image/zero_result2.png)  
 ### 4.2 Few-shot 实践
-### 4.3 Role-playing 实践
-### 4.4 CoT 实践
+针对于Few-shot，加上两个示例让模型进行模仿：  
+（prompt）  
+![img](image/few_result1.png)    
+（输出结果）  
+![img](image/few_result2.png)  
+### 4.3 CoT 实践  
+针对于CoT，会让先模型进行推理分析：
+(prompt)  
+![img](image/cot_result1.png)  
+(输出结果)  
+![img](image/cot_result2.png)
+
+### 4.4 Role-playing 实践  
+针对于Role-playing，会设定角色，让模型按照角色设定进行推理
+(prompt)    
+![img](image/rolePlaying_result1.png)   
+(输出结果)   
+![img](image/rolePlaying_resut2.png)
+
 
 ## 5. 效果对比分析
 
