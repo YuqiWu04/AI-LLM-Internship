@@ -90,7 +90,7 @@ Role-playing Prompting 适合用于需要特定专业视角、特定表达风格
 ## 4. 不同 Prompt 技巧的实践结果
 接下来是展示对各种 Prompt 技巧的提问以及输出结果， 针对于同一个问题：“帮我为一款AI 学习工具写一篇小红书风格的推广文案”
 ### 4.1 Zero-shot 实践
-针对于Zero-shot，输入如下：“帮我为一款AI 学习工具写一篇小红书风格的推广文案”(如下图包含prompt以及输出结果)
+针对于Zero-shot，输入如下：“帮我为一款AI 学习工具写一篇小红书风格的推广文案”(如下图包含prompt以及输出结果)  
 ![img](image/zero_result1.png)  
 ![img](image/zero_result2.png)  
 ### 4.2 Few-shot 实践
