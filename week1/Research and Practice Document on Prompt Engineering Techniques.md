@@ -2,8 +2,10 @@
 ## 1. 任务背景
 本报告围绕主流 Prompt Engineering 技巧展开研究与实践，其主要包括以下方法：Zero-shot Prompting、Few-shot Prompting、Chain-of-Thought Prompting和Role-playing Prompting。 本报告首先将介绍Prompt Engineering的定义与背景，其次
 针对于Prompt Engineering 主流技巧依次进行介绍原理和结构以及使用方法，并给出实际应用场景。在此基础上本报告将这四种主流技巧在统一任务下进行对比。随后对于每个不同技巧的输出结果进行分析其优劣势并给出结论 最后本报告将结合实验结果对不同 Prompt 技巧进行综合评价
-## 2. Prompt Engineering 简介
-
+## 2. Prompt Engineering 简介  
+Prompt Engineering（提示工程）是指用户或者开发人员通过人类的自然语言的描述来引导大语言模型（LLM）生成符合预期输出的一种技术方法。
+此方法无需修改模型参数，也不需要进行模型的重新训练，而是利用模型的上下文学习能力，通过自然语言对模型进行“指令编程”。 现如今，Prompt Engineering 已应用于文本生成、问答系统、推理任务及多模态生成等领域
+其主要的技术方法包括 Zero-shot Prompting、Few-shot Prompting、Chain-of-Thought Prompting和Role-playing Prompting。
 ## 3. 主流 Prompt 技巧研究
 ### 3.1 Zero-shot Prompting
 #### 定义： 
